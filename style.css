@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)) , url('https://i.pinimg.com/564x/ed/ea/83/edea8324fd065582474ace84ae00118b.jpg') no-repeat center / cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.weath-container { 
+    background-color: rgba(0, 87, 159, 0.7);
+    min-width: 350px;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+    height: 600px;
+    transition: 0.4s ease; 
+    background: url('https://i.pinimg.com/564x/ed/ea/83/edea8324fd065582474ace84ae00118b.jpg')  no-repeat center / cover  ;
+}
+/* COLD */
+.cold {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)) , url('https://upanh123.com/wp-content/uploads/2020/12/hinh-anh-mua-dong-lanh10-1024x576.jpg') no-repeat center / cover;
+}
+
+.cold .weath-container {
+    background: url('https://upanh123.com/wp-content/uploads/2020/12/hinh-anh-mua-dong-lanh10-1024x576.jpg')  no-repeat center / cover  ;
+}
+/* WARM */
+.warm {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)) , url('https://binhminhdigital.com/StoreData/images/PageData/bi-quyet-chup-anh-hoang-hon-dep-Binhminhdigital(1).jpg') no-repeat center / cover;
+}
+
+.warm .weath-container {
+    background: url('https://binhminhdigital.com/StoreData/images/PageData/bi-quyet-chup-anh-hoang-hon-dep-Binhminhdigital(1).jpg')  no-repeat center / cover  ;
+}
+/* HOT */
+.hot {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)) , url('https://i.pinimg.com/564x/ed/ea/83/edea8324fd065582474ace84ae00118b.jpg') no-repeat center / cover;
+}
+
+.hot .weath-container {
+    background: url('https://i.pinimg.com/564x/ed/ea/83/edea8324fd065582474ace84ae00118b.jpg')  no-repeat center / cover  ;
+}
+
+.weath-container__search {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius:  0 15px 0 15px;
+    border: none;
+    outline: none;
+    margin-bottom: 40px;
+    font-size: 19px;
+    box-shadow: 0 5px 4px rgb(0 0 0 / 20%);
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: 0.35s
+}
+
+.weath-container__search:focus {
+    background-color: #fff;
+    border-radius: 15px 0 15px 0;
+}
+
+.weath-container__content-title {
+    font-size: 35px;
+    color: #fff
+}
+
+.weath-container__content-time {
+    font-size: 15px;
+    margin: 6px 0;
+    color: #fff
+}
+
+.weath-container__content-temperature {
+    margin: 20px 0 30px 0;
+    padding: 20px;
+    font-size: 65px;
+    font-weight: 800;
+    color: #fff;
+    box-shadow: 2px 2px 0 2px rgb(0 0 0 / 50%);
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+    text-shadow: 4px 4px rgb(0 0 0 / 60%);
+    display: inline-block
+}
+
+.weath-container__content-weather {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 3px 3px rgb(0 0 0 / 40%);
+}
+
+.weath-container__content-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.hide {
+    display: none;
+}
+
